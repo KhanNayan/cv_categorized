@@ -26,7 +26,7 @@ def load_encoder():
     return encoder
 
 def load_model():
-    model = keras.models.load_model("model/resume_category_model_acc_70.h5",compile=False)
+    model = keras.models.load_model("model/resume_category_model.h5",compile=False)
     return model
 
 def preprocess(txt):
